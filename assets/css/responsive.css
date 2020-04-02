@@ -1,0 +1,264 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-text h1 {
+	font-size: 35px;
+	line-height: 50px;
+	text-align: center;
+}
+
+header.home-heder {
+	background-image: url(../img/bg1.jpg);
+	height: 700px;
+}
+
+a.round-btn {
+	width: 120px;
+	height: 130px;
+	font-size: 14px;
+}
+.rooms-text h2 {
+	font-size: 28px;
+	line-height: 40px;
+}
+.rooms-text {
+	padding-left: 15px;
+	max-width: 440px;
+}
+.rooms-text span {
+	font-size: 13px;
+}
+.big-rooms-left {
+	height: 650px;
+}
+.big-rooms {
+	margin-left: 50px;
+}
+.footer-item h4 {
+	font-size: 14px;
+	letter-spacing: 0;
+	color: #414FCB;
+	margin-bottom: 20px;
+}
+.rooms-text {
+	padding-left: 15px;
+	max-width: 100%;
+}
+.list-text li a {
+	font-size: 12.5px;
+	margin-right: 18px;
+	transition: .3s;
+}
+.rooms-text p {
+	font-size: 15px;
+}
+.about-heder .header-text h1 {
+	font-size: 32px;
+	letter-spacing: 0;
+}
+.home-heder .header-text {
+	height: 700px;
+}
+
+
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.mainmenu {
+	display: none;
+}
+.header-text h1 {
+	font-size: 48px;
+	line-height: 60px;
+}
+header.home-heder {
+	height: 780px;
+	margin-bottom: 80px;
+}
+.header-left{
+	padding-top: 25px;
+}
+.logo h4 {
+	color: #fff;
+}
+.header-text {
+	padding-top: 0px;
+	max-width: 280px;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+.header-left {
+	text-align: center;
+}
+.header-right {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+a.round-btn {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px 60px 65px 55px;
+	font-weight: normal;
+	font-size: 15px;
+	text-align: center;
+	color: #414FCB;
+	padding: 0;
+	background: url(../img/btn-bg.svg);
+	background-position: center;
+	background-size: cover;
+	text-transform: uppercase;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	float: none;
+	background: #414FCB;
+	color: #fff;
+	padding-top: 28px;
+	margin: 5px;
+}
+.home-heder .row {
+	height: 100%;
+	position: relative;
+}
+.burger-menu {
+    display: inline-block;
+    float: right;
+}
+.rooms-text {
+	padding: 0;
+	margin-bottom: 50px;
+}
+
+.rooms-text h2 {
+	font-size: 32px;
+	line-height: 40px;
+}
+.rooms-img img {
+	width: 100%;
+}
+.big-rooms {
+	margin-left: 0;
+}
+.big-rooms-txt {
+	margin-left: 0;
+	max-width: 100%;
+}
+.big-rooms-left {
+	width: 100%;
+	height: 310px;
+	align-items: center;
+	background: none;
+}
+.big-rooms-txt h2 {
+	font-size: 32px;
+	line-height: 40px;
+	color: #414FCB;
+	margin: 15px 0;
+}
+.big-rooms-txt span {
+	color: #414FCB;
+}
+.big-rooms-txt p {
+	color: #414FCB;
+}
+.big-rooms-txt .action-btn {
+	color: #414FCB;
+}
+.big-rooms-txt .action-btn svg path {
+	fill: #414FCB !important;
+}
+.footer-logo {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.footer-item h4 {
+	font-size: 12px;
+	line-height: 19px;
+	margin-bottom: 15px;
+}
+.footer-item.social-item {
+	padding-top: 40px;
+}
+.social-link {
+	margin-bottom: 40px;
+}
+.big-room-area {
+	padding: 40px 0;
+}
+
+.big-rooms-res{
+	display: block;
+}
+.big-room-area .right-bar {
+	display: none;
+}
+.home-heder .header-text {
+	height: 780px;
+}
+.about-heder .header-text h1 {
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: 40px;
+}
+.header-text {
+	height: 380px;
+	margin-top: -70px;
+}
+header.about-heder  {
+	height: 380px;
+}
+.rooms-titles {
+	text-align: left;
+}
+.rooms-text h2 {
+	font-size: 24px;
+	line-height: 32px;
+}
+.include-text {
+	max-width: 690px;
+	margin: 0 auto;
+	text-align: left;
+}
+.include-text h2 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}

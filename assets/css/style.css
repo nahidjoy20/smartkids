@@ -1,0 +1,615 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400;700;800&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  color: #414FCB;
+}
+body {
+  color: #414FCB;
+  font-weight: 400;
+  background: #F5EFE7;
+  font-family: 'BioRhyme', serif;
+}
+
+span{
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+a:hover { text-decoration: none }
+
+
+
+/* Header bar section start */
+.section-padding{
+
+  padding: 80px 0;
+}
+header {
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px
+}
+header:after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: .1;
+  content: '';
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+header.home-heder {
+    background-image: url(../img/bg1.jpg);
+    height: 880px;
+    position: relative;
+}
+.header-left, .header-right {
+    padding-top: 60px;
+}
+.logo {
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.logo img {
+    width: 126px;
+}
+.logo h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.header-text {
+    height: 680px;
+    display: flex;
+    padding-top: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.home-heder .header-text {
+    height: 880px;
+}
+header.home-heder .container {
+    height: 100%;
+}
+.header-text h1 {
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: block;
+    margin: 12px 0;
+}
+
+.mainmenu li a {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #414FCB;
+    transition: .3s
+}
+.mainmenu li a:hover{
+  color: #fff;
+}
+
+a.round-btn {
+    position: relative;
+    width: 140px;
+    height: 130px;
+    border-radius: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #414FCB;
+    padding: 26px;
+    background: url(../img/btn-bg.svg);
+    background-position: center;
+    background-size: cover;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.burger-menu {
+    display: none;
+    float: right;
+    cursor: pointer;
+}
+.burger-menu img {
+    width: 33px;
+}
+
+
+
+/*-------- Room-view area --------*/
+.room-area {
+    padding: 40px 0;
+}
+
+.rooms-view {
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: 15px;
+}
+.bar-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar-bottom {
+    display: flex;
+    align-self: flex-end;
+}
+.bar-middle img {
+    width: 30px;
+}
+.bar-top span, .bar-bottom span{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.16em;
+    color: #414FCB;
+    font-family: 'Lato', sans-serif;
+}
+.bar-bottom span{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.16em;
+    color: #414FCB;
+    font-family: 'Lato', sans-serif;
+}
+.rooms-img {
+    width: 100%;
+}
+.rooms-text span {
+    font-family: 'BioRhyme', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+    margin-bottom: 15px;
+    display: block;
+}
+.rooms-text h2 {
+    font-family: BioRhyme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+}
+.rooms-text p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+}
+.rooms-text {
+    padding-left: 35px;
+    max-width: 440px;
+}
+a.action-btn {
+    font-family: BioRhyme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #414FCB;
+}
+a.action-btn svg {
+    margin-left: 10px;
+    position: relative;
+    transition: .3s;
+}
+a.action-btn:hover svg{
+  margin-left: 25px
+}
+/*-------- Room-view area --------*/
+
+
+
+
+
+
+
+
+/*-------- big-room-area Start --------*/
+
+.big-room-area {
+    padding: 80px 0;
+}
+.big-rooms {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.big-rooms-left {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/img-4.png);
+    width: 100%;
+    height: 750px;
+    align-items: center;
+    display: flex;
+}
+
+.big-rooms-txt span {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    font-family: BioRhyme;
+}
+.big-rooms-txt h2 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: block;
+    margin: 15px 0;
+}
+.big-rooms-txt {
+    margin-left: 100px;
+    max-width: 410px;
+}
+.big-rooms-txt p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.big-rooms-txt .action-btn {
+    color: #fff;
+    margin-top: 15px;
+    display: inline-block;
+}
+.big-rooms-txt .action-btn svg path {
+    fill: #fff !important;
+}
+
+/*-------- big-room-area End --------*/
+
+
+
+
+.footer-logo img {
+    width: 140px;
+}
+footer {
+    padding: 80px 0;
+    border-top: ;
+    border-top: 2px solid #414FCB;
+    margin-top: 80px;
+    padding-bottom: 0
+
+}.footer-item h4 {
+    font-family: BioRhyme;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+    margin-bottom: 25px;
+}
+.footer-item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-item ul li {
+    display: block;
+    font-family: BioRhyme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+    text-transform: uppercase;
+}
+.footer-item ul li a{
+    font-family: BioRhyme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+    text-transform: uppercase;
+}
+.social-link li a {
+    display: inline-block;
+    border-bottom: ;
+    text-decoration: underline;
+}
+.subscription input {
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+    background: transparent;
+    border-bottom: 1px solid #414fcf;
+    padding-top: 20px;
+    font-family: BioRhyme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #414FCB;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #414FCB;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #414FCB;
+}
+
+.subscription button {
+    float: right;
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #414FCB;
+    cursor: pointer;
+    outline: none;
+    padding: 6px 0
+}
+.subscription button svg {
+    position: relative;
+    margin-left: 10px;
+}
+.copyright-text {
+    padding-top: 100px;
+}
+.copyright-text p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+}
+.big-rooms-res{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*=============== Rooms Page Start ================*/
+
+
+.about-heder {
+    background-image: url(../img/bg2.jpg);
+}
+.about-heder .header-text h1 {
+    font-size: 68px;
+    letter-spacing: 0;
+}
+
+.white-content .logo h4 {
+    color: #fff;
+}
+.white-content .mainmenu li a {
+    color: #fff;
+}
+.white-content .round-btn {
+    background-image: url(../img/btn-bg2.png);
+    color: #ffff !important;
+}
+.our-guest-text h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 0 !important;
+}
+.list-text ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+.list-text li {
+  display: inline;
+}
+.list-text li a {
+  font-family: BioRhyme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #414FCB;
+  display: inline-block;
+  margin-right: 25px;
+  transition: .3s
+}
+.list-text li a:hover {
+    text-decoration: underline;
+}
+.list-text li:last-child a{
+    margin-right: 0
+}
+.our-guest-text {
+    max-width: 480px;
+}
+.our-guest-text a.action-btn {
+    margin-top: 30px;
+    display: block;
+}
+.rooms-titles {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.rooms-titles p{
+    font-family: Lato;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.02em;
+}
+
+.rooms-titles h1 {
+    font-family: BioRhyme;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+}
+.include-text {
+    max-width: 690px;
+    margin: 0 auto;
+    text-align: center;
+}
+.include-text h2 {
+    font-family: BioRhyme;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+}
+.include-text p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #414FCB;
+    text-align: left;
+}
+.include-text a {
+    color: #ddd;
+    color: #414FCB;
+    text-decoration: underline;
+    font-family: Lato;
+}
+.include-text-area {
+    padding-top: 60px;
+}
+.our-guest-text {
+    max-width: 500px;
+}
+
+
+
+
+
+
+/*=============== Rooms Page End ================*/
+
+.room-slide-item {
+    margin: 60px;
+    transition: .3s;
+    margin-top: 40px;
+}
+.room-slider-area .owl-item.active.center .room-slide-item {
+    margin: 0;
+}
+
+.room-slider-area .owl-prev {
+    width: 80px;
+    height: 15px;
+    font-size: 0;
+    background-image: url(../img/long-arrow-prev.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 9.7% !important;
+    bottom: 5%;
+}
+.room-slider-area .owl-next {
+    width: 80px;
+    height: 15px;
+    font-size: 0;
+    background-image: url(../img/long-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 5%;
+    right: 13.7%;
+}
+.room-slide-item .bar-middle img {
+    width: 30px;
+}
